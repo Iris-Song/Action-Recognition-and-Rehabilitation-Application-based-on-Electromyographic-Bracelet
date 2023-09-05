@@ -24,7 +24,7 @@ The whole system uses Chinese.
 
 ### backend
 + views.py 主体部分实现
-  + username 全局变量，设定当前用户【可以自己改成cookie存储
+  + username 全局变量，设定当前用户【可以自己改成cookie存储】
   + get_visual_data 新建实验后按固定频率调用，对输入信号进行打分，未选择的动作模式默认得分为0
   + get_visualization_data 模拟流程时按固定频率调用，npy文件进行分析
   + music2 读取肌电手环数据
@@ -52,6 +52,11 @@ https://blog.csdn.net/Gu_amber/article/details/122531578
 emgdata/basic_csv 存储基准训练集
 
 emgdata/username 存储某一用户的标准数据集
+
+## [Video demo](https://youtu.be/sB43WXYmbxg)
+duration:  2:39 
+
+quick introduction of hardware and EMG system
 
 ## source code
 Inherit code from Brain Cognition and Computing Lab of Tongji University. All rights belong to Brain Cognition and Computing Lab.
